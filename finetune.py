@@ -1353,7 +1353,7 @@ if __name__ == "__main__":
     demo.queue().launch(
         show_api=False,
         inbrowser=True,
-        share=False,
+        share=True,
         debug=False,
         server_port=7052,
         server_name="127.0.0.1",
